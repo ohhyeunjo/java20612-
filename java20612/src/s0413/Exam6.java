@@ -9,6 +9,7 @@ public class Exam6 {
 				continue;
 			}else {
 				System.out.print(i+" ");
+				System.out.println("github test");
 			}
 		}
 	}
