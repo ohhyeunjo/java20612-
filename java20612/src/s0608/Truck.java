@@ -9,4 +9,9 @@ public class Truck extends Car{
 	void speedup2() {
 		super.speedup();
 	}
+	String name="트럭";
+	
+	String print() {
+		return"{차의 종류는 "+name+"이다.}";
+	}
 }
