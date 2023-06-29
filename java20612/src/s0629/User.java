@@ -7,7 +7,7 @@ public class User {
 		Radio radio=new Radio();
 		TV tv = new TV();
 		
-		radio.SoundUp(5);
+		radio.SoundUp(5);////
 		radio.SoundUp(7);
 		radio.SoundDown(20);
 		
