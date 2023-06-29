@@ -12,7 +12,7 @@ public class User {
 		radio.SoundDown(20);
 		
 		tv.SoundUp(10);
-		tv.SoundDown(20);
+		tv.SoundDown(20);///
 	}
 
 }

@@ -21,6 +21,7 @@ public class Book {
 		this.count = count;
 		this.borrow = borrow;
 	}
+	
 	public int getNo() {
 		return no;
 	}
