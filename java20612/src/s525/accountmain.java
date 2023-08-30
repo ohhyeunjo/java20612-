@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class accountmain {
 
 	public static void main(String[] args) {
-		account a1=new account("¿ÀÇöÁ¶",12345678,10000);
+		account a1=new account("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",12345678,10000);
 		a1.printInfo();
-		
+		//1
 		Scanner sc = new Scanner(System.in);
 		int money;
 		while(true) {
 			a1.printmenu();
 			int menu = sc.nextInt();
 			if(menu==4) {
-				System.out.println("ÀÌ¿ëÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.");
+				System.out.println("ï¿½Ì¿ï¿½ï¿½ï¿½ï¿½Ö¼Å¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 				break;
 			}
 			else if(menu==1) {
-				System.out.println("ÀÔ±ÝÇÒ ±Ý¾×: ");
+				System.out.println("ï¿½Ô±ï¿½ï¿½ï¿½ ï¿½Ý¾ï¿½: ");
 				money = sc.nextInt();
 				a1.deposit(money);
 			}
 			else if(menu==2) {
-				System.out.println("Ãâ±ÝÇÒ ±Ý¾×: ");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¾ï¿½: ");
 				money = sc.nextInt();
 				a1.withdraw(money);
 			}
@@ -31,7 +31,7 @@ public class accountmain {
 				a1.printInfo();
 			}
 			else {
-				System.out.println("´Ù½ÃÀÔ·ÂÇÏ¼¼¿ä");
+				System.out.println("ï¿½Ù½ï¿½ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½");
 			}
 		}
 	}
